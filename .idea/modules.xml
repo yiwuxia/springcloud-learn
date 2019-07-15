@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud.iml" filepath="$PROJECT_DIR$/cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/example.iml" filepath="$PROJECT_DIR$/example/example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fangjia-eureka/fangjia-eureka.iml" filepath="$PROJECT_DIR$/fangjia-eureka/fangjia-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer/fangjia-fsh-substitution-service.iml" filepath="$PROJECT_DIR$/consumer/fangjia-fsh-substitution-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider/provider.iml" filepath="$PROJECT_DIR$/provider/provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/providerTwo/providerTwo.iml" filepath="$PROJECT_DIR$/providerTwo/providerTwo.iml" />
+    </modules>
+  </component>
+</project>

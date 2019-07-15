@@ -6,14 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="fangjia-fsh-house-service" />
-        <module name="fangjiaeureka" />
+        <module name="example" />
+        <module name="fangjia-eureka" />
+        <module name="fangjia-fsh-substitution-service" />
+        <module name="provider" />
+        <module name="providerTwo" />
       </profile>
     </annotationProcessing>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="fangjia-fsh-house-service" options="" />
-    </option>
+    <bytecodeTargetLevel>
+      <module name="cloud" target="1.8" />
+      <module name="example" target="1.8" />
+      <module name="fangjia-eureka" target="1.8" />
+      <module name="fangjia-fsh-substitution-service" target="1.8" />
+      <module name="provider" target="1.8" />
+      <module name="provider2" target="1.8" />
+      <module name="providerTwo" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
