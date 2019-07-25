@@ -11,7 +11,11 @@ public class BeanConfiguration {
     @Bean
     @LoadBalanced
     public RestTemplate getRestTemplate(){
-        return  new RestTemplate();
+        RestTemplate restTemplate=new RestTemplate();
+        System.out.println(restTemplate);
+        return  restTemplate;
     }
+
+
 
 }

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="common" />
         <module name="example" />
         <module name="fangjia-eureka" />
         <module name="fangjia-fsh-substitution-service" />
@@ -15,6 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud" target="1.8" />
+      <module name="common" target="1.8" />
       <module name="example" target="1.8" />
       <module name="fangjia-eureka" target="1.8" />
       <module name="fangjia-fsh-substitution-service" target="1.8" />
